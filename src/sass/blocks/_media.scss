@@ -1,0 +1,124 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 960px;
+    }
+    .mortgage-general-header__wrapper {
+        width: 960px;
+    }
+    .mortgage-general-header {
+        background: url(../img/mortgage-intro-bg.png) 170% 100% no-repeat, rgb(237, 250, 247);
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper  {
+        width: 720px;
+    }
+    .mortgage-general-header__wrapper {
+        width: 720px;
+    }
+    .mortgage-general-header {
+        background: rgb(237, 250, 247);
+    }
+    .mortgage-item__condition-name {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .mortgage-item__condition-description {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .mortgage-item__condition-name {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .mortgage-item__condition-description {
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper  {
+        width: 540px;
+    }
+    .mortgage-general-header__wrapper {
+        width: 540px;
+    }
+    .mortgage-programs__title {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #333;
+    }
+    .mortgage-item__img {
+        display: none;
+    }
+    .mortgage-item {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #333;
+        margin: 0;
+        &:first-child {
+            border-top: 1px solid #333;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper  {
+        width:100%;
+    }
+    .mortgage-general-header__wrapper {
+        width: 100%;
+    }
+    .mortgage-general-header {
+        &__title {
+            font-size: 38px;
+            line-height: 42px;
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__btn {
+            height: 50px;
+            line-height: 17px;
+        }
+    }
+    .mortgage-programs {
+        margin-top: 50px;
+    }
+    .mortgage-item {
+        br {
+            display: none;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 27px;
+        }
+        &__subtitle {
+            font-size: 11px;
+            line-height: 15px;
+        }
+    }
+    .mortgage-item__conditions {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+    .mortgage-item__condition {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .mortgage-item__links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+    .mortgage-item__more-details {
+        margin-top: 10px;
+    }
+}

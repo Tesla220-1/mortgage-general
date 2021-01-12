@@ -80,7 +80,8 @@
     margin-bottom: 59px;
     &__img {
         margin-right: 41px;
-        width: 252px;
+        min-width: 252px;
+        max-width: 252px;
         border-radius: 6px;
         img {
             width: 100%;
