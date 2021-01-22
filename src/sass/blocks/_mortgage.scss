@@ -60,6 +60,68 @@
     }
 }
 
+
+//mortgage-advantages
+.mortgage-advantages {
+    padding-top: 82px;
+    padding-bottom: 136px;
+    &__title {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #222222;
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            background: #FFF32B;
+            width: 253px;
+            height: 21px;
+            left: 65px;
+            top: 18px;
+            z-index: -1;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 65px;
+    }
+    &__list {
+        max-width: 385px;
+    }
+    &__list-item {
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 21px;
+        color: #222222;
+        margin-bottom: 50px;
+        position: relative;
+        padding-left: 48px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 32px;
+            height: 32px;
+            background: url(../icons/check-mark-little.svg) center center no-repeat, #FFFFFF;
+            box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.14);
+            border-radius: 100%;
+            left: 0;
+            top: -5px;
+        }
+    }
+    &__important-text {
+        font-weight: bold;
+    }
+}
+
 //mortgage-programs
 .mortgage-programs {
     margin-top: 106px;
